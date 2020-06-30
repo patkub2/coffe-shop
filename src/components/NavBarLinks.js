@@ -1,10 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
 const NavBarLink = styled.div`
   height: 100%;
-  font-size: 1.8em;
+  font-size: 30px;
   ul {
     display: flex;
     margin: 0;
@@ -17,7 +17,7 @@ const NavBarLink = styled.div`
       display: block;
       text-decoration: none;
       color: ${({ theme }) => theme.colors.white};
-      padding: 1rem 2rem;
+      padding: 20px 20px;
     }
     a1 {
       font-size: 1.6em;
@@ -43,13 +43,13 @@ const NavBarLinks = ({ isOpen }) => {
           <Link to="/coffe">Coffe</Link>
         </li>
         <li>
-          <a1>•</a1>
+          <a>•</a>
         </li>
         <li>
           <Link to="/food">Food</Link>
         </li>
         <li>
-          <a1>•</a1>
+          <a>•</a>
         </li>
         <li>
           <Link to="/about">Contact</Link>

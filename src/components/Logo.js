@@ -14,15 +14,12 @@ const LogoWrapper = styled.div`
 
 const CafeName = styled.div`
   text-decoration: none;
-  font-size: 2.5em;
-  padding: 0.2em 1.8em 0.2em 1em;
+  font-size: 40px;
+  padding: 0.2em 4em 0.2em 1em;
   color: ${({ theme }) => theme.colors.white};
   margin: 0;
   position: relative;
   cursor: pointer;
-  :hover {
-    text-decoration: underline;
-  }
 `
 const Logo = ({ children }) => {
   return (

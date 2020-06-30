@@ -1,11 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import Layout from "../layout/Layout"
 import "../utils/in.css"
 import styled from "styled-components"
 import useToggler from "./useToggler"
 import NavBarLinks from "./NavBarLinks"
 import NavBarBurger from "./NavBarBurger"
-import { Link } from "gatsby"
 import Logo from "./Logo"
 
 const NavBar = styled.nav`
