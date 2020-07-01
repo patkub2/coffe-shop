@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import styled from "styled-components"
 
 const NavBarLink = styled.div`
@@ -47,19 +47,19 @@ const NavBarLinks = ({ isOpen }) => {
     <NavBarLink isOpen={isOpen}>
       <ul>
         <li>
-          <a href="#" tabIndex="-1">
+          <a href="/" tabIndex="-1">
             Coffe
           </a>
         </li>
         <hr></hr>
         <li>
-          <a href="#" tabIndex="-1">
+          <a href="/" tabIndex="-1">
             Food
           </a>
         </li>
         <hr></hr>
         <li>
-          <a href="#" tabIndex="-1">
+          <a href="/" tabIndex="-1">
             Contact
           </a>
         </li>

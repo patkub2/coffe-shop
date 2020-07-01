@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../layout/Layout"
-import { Link } from "gatsby"
 
 import Navigation from "../components/Navigation"
 

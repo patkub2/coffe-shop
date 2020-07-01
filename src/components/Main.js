@@ -24,7 +24,7 @@ const TextBox = styled.div`
   font-family: Lobster;
   flex-flow: column wrap;
   justify-content: flex-end;
-  a {
+  p {
     font-size: 4em;
     line-height: 1.2em;
     color: #f0e6d7;
@@ -76,8 +76,8 @@ const Main = () => {
   return (
     <MainWraper>
       <TextBox>
-        <a>Perfect coffee does not</a>
-        <a> exist but we are sure close</a>
+        <p>Perfect coffee does not</p>
+        <p> exist but we are sure close</p>
       </TextBox>
       <Button>
         <Link to="/about">Check out</Link>

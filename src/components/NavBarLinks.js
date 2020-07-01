@@ -19,12 +19,11 @@ const NavBarLink = styled.div`
       color: ${({ theme }) => theme.colors.white};
       padding: 20px 20px;
     }
-    a1 {
-      font-size: 1.6em;
+    p {
       display: block;
       text-decoration: none;
       color: ${({ theme }) => theme.colors.white};
-      user-select: none;
+      padding: 20px 20px;
     }
     a:hover {
       text-decoration: underline;
@@ -43,13 +42,13 @@ const NavBarLinks = ({ isOpen }) => {
           <Link to="/coffe">Coffe</Link>
         </li>
         <li>
-          <a>•</a>
+          <p>•</p>
         </li>
         <li>
           <Link to="/food">Food</Link>
         </li>
         <li>
-          <a>•</a>
+          <p>•</p>
         </li>
         <li>
           <Link to="/about">Contact</Link>
