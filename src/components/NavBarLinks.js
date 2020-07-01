@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 const NavBarLink = styled.div`
-  height: 100%;
   font-size: 30px;
   ul {
     display: flex;
@@ -17,13 +16,13 @@ const NavBarLink = styled.div`
       display: block;
       text-decoration: none;
       color: ${({ theme }) => theme.colors.white};
-      padding: 20px 20px;
+      margin: 30px 0px 0px 0px;
+      padding: 0 30px;
     }
     p {
       display: block;
       text-decoration: none;
       color: ${({ theme }) => theme.colors.white};
-      padding: 20px 20px;
     }
     a:hover {
       text-decoration: underline;

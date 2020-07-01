@@ -11,7 +11,7 @@ const NavBar = styled.nav`
   overflow-x: hidden;
   display: flex;
   position: relative;
-  min-height: 8vh;
+  min-height: 10px;
   justify-content: space-between;
   align-items: center;
   background-color: ${({ theme }) => theme.colors.dark};

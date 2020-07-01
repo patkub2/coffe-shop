@@ -6,20 +6,24 @@ const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
   flex: 1;
-  a {
-    text-decoration: none;
-    color: ${({ theme }) => theme.colors.white};
-  }
 `
 
-const CafeName = styled.div`
+const CafeName = styled.a`
+  /*border: 1px solid green; /* green*/
   text-decoration: none;
   font-size: 40px;
-  padding: 0.2em 4em 0.2em 1em;
-  color: ${({ theme }) => theme.colors.white};
+  padding: 0.2em 1em 0.2em 1em;
+  color: ${({ theme }) => theme.colors.dark};
   margin: 0;
   position: relative;
   cursor: pointer;
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.white};
+    :hover {
+      color: white;
+    }
+  }
 `
 const Logo = ({ children }) => {
   return (
