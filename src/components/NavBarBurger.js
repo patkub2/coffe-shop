@@ -6,6 +6,7 @@ const NavBarLink = styled.div`
   height: 100%;
   font-size: 1.5em;
   background-color: ${({ theme }) => theme.colors.dark};
+  z-index: 10;
   ul {
     display: flex;
     margin: 0;

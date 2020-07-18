@@ -80,7 +80,7 @@ const Main = () => {
         <p> exist but we are sure close</p>
       </TextBox>
       <Button>
-        <Link to="/about">Check out</Link>
+        <Link to="/coffe">Check out</Link>
       </Button>
     </MainWraper>
   )
